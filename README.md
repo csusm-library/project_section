@@ -1,11 +1,15 @@
-project_section
+Project Sections
 ===============
 
 Derived from http://projects.andriylesyuk.com/project/redmine/project-sections
 
-From http://projects.andriylesyuk.com/project/redmine/project-sections
+Based on description from http://projects.andriylesyuk.com/project/redmine/project-sections
 
-"
-Redmine inclines to using dummy projects as project categories. This always seemed odd to me, as in this case we get false projects, mess of ones, that play roles of categories, and the real parent projects.
+Redmine uses dummy projects as project categories. This leads to 'fake' projects that serve no other purpose but to hold subprojects.
 
-This plugin is a try to implement the real project categories for Redmine, which it calls “sections”. The primary goals of sections are: to categorize projects, group projects in the project lists and additionally describe projects (e.g., Redmine › Project Sections). The plugin also implements it in an unusual way: thus, sections are used to build project URLs, sections support subsections, subsection with the same name (and identifier) can exist under different parent sections and so on."
+This plugin adds the sections in Redmine, to which projects can be assigned. The project sections plugin provides the following features and fuctionality.
+* A category can be assigned to each project.
+* Projects are grouped together in a list.
+* A breadcrumb is displayed in the Redmine header.
+* Each section has it's own page with a listing of projects in that section.
+* Sections may also have sub-sections.
