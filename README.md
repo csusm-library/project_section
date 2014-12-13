@@ -7,7 +7,7 @@ Based on description from http://projects.andriylesyuk.com/project/redmine/proje
 
 Redmine uses dummy projects as project categories. This leads to 'fake' projects that serve no other purpose but to hold subprojects.
 
-This plugin adds the sections in Redmine, to which projects can be assigned. The project sections plugin provides the following features and fuctionality.
+This plugin allows projects to be assigned to sections in Redmine. Features and fuctionality available in this plugin are listed below.
 * A category can be assigned to each project.
 * Projects are grouped together in a list.
 * A breadcrumb is displayed in the Redmine header.
